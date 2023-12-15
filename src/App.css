@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(moon.jpg);
+  line-height: 1.5;
+}
+.container {
+  text-align: center;
+  margin: 100px;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-display: fallback;
+  text-shadow: 2px 2px whitesmoke;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  box-shadow: 10px 10px 10px whitesmoke;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(43, 189, 226);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(81, 5, 5);
+}
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  width: 150px;
+  padding: 5px;
+}
+button {
+  background-color: rgb(8, 72, 82);
+  border-radius: 5px;
+  border-color: rgb(139, 114, 114);
+  box-shadow: 10px 10px 10px black;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 100px 20px;
+  border: 3px solid rgb(3, 42, 3);
+  cursor: pointer;
+}
+button:hover {
+  background-color: skyblue;
+  transform: rotatey(50deg);
+}
+.label {
+  color: rgb(43, 137, 226);
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bolder;
+}
